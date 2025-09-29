@@ -1,0 +1,12 @@
+#представление массива данных на Python
+
+list = ['Arthur','bmw', 'money', 'sf', 'alg']
+
+#пример кода организаци стека на Python
+
+p = []
+p.append('Arthur')
+p.append('bmw')
+p.append('money')
+p.append('sf')
+p.append('alg')
