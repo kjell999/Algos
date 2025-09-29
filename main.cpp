@@ -8,7 +8,7 @@ int main() {
     return 0;  
 }
 
-//пример кода организации стека на C++
+//пример стека на C++
 
 struct stack {  
     int elements[1000];  
@@ -22,10 +22,11 @@ struct stack {
             top--;  
             return elements[top + 1];  
         } else {  
-            // Ошибка, попытка извлечь элемент из пустого стека  
+            // Ошибка
         }  
     }  
     bool is_empty() {  
         return top == -1;  
     }  
+
 };
